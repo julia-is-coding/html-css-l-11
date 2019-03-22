@@ -1,0 +1,10 @@
+@import 'normalize.css';
+
+select {
+    appearance: none;
+}
+
+p {
+    user-select: none;
+    color: orange;
+}

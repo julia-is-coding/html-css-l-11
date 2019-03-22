@@ -1,0 +1,45 @@
+@import 'normalize.css';
+
+* {
+    box-sizing: border-box;
+}
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+.box {
+    height: 150px;
+    background: aqua;
+    width: 33.333333%;
+    border: 3px solid black;
+
+    font-size: 2rem;
+    color: rgb(75, 134, 90);
+    text-align: center;
+    line-height: 150px;
+}
+
+.flex {
+    /* height: 500px; */
+    display: flex;
+    background: #FFCA7D;
+}
+
+/*
+    Свойства flex контейнера:
+    - flex-direction: row | row-reverse | column | column-reverse;
+    - flex-wrap: nowrap | wrap | wrap-reverse;
+    - justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+    - align-items: flex-start | flex-end | center | baseline | stretch;
+    - align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+ */
+
+
+ /*
+    Свойства flex-элемента:
+    - order: <число> (0 по-умолчанию)
+    - flex-grow: <число> (0 по-умолчанию)
+    - flex-shrink: <число>; (1 по-умолчанию)
+    - flex-basis: <length> | auto;
+    - flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
+    - align-self: auto | flex-start | flex-end | center | baseline | stretch;
+*/
